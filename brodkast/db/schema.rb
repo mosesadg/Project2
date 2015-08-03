@@ -11,26 +11,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150803154415) do
+ActiveRecord::Schema.define(version: 20150803162129) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "comments", force: :cascade do |t|
-    t.string  "text_body"
-    t.string  "author"
-    t.string  "date_created"
-    t.integer "video_id"
+    t.string   "text_body"
+    t.string   "author"
+    t.string   "date_created"
+    t.integer  "video_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "comments", ["video_id"], name: "index_comments_on_video_id", using: :btree
 
   create_table "videos", force: :cascade do |t|
-    t.string  "subject"
-    t.string  "video_url"
-    t.string  "author"
-    t.string  "date_created"
-    t.integer "likes"
+    t.string   "subject"
+    t.string   "video_url"
+    t.string   "author"
+    t.string   "date_created"
+    t.integer  "likes"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_foreign_key "comments", "videos"
