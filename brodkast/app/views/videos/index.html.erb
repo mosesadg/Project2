@@ -1,0 +1,22 @@
+<h2>Videos <a href ="/videos/new">(+)</a></h2>
+
+<ul>
+    <% @videos.each do |video1| %>
+    <li>
+        <a href ="/videos/<%= video1.id %>">
+          <%= video1.subject%><br>
+            <%= video1.author%><br>
+              <%= video1.date_created%><br>
+                <%= video1.likes%><br>
+                <%= video1.link_url%><br>
+
+                  </a>
+    </li><br>
+
+    <iframe width="600" height="315" src="https://www.youtube.com/embed/mSF-R0A3N8c" frameborder="0" allowfullscreen></iframe>
+    <br><br><br>
+
+
+
+    <% end %>
+</ul>

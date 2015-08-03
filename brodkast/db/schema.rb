@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 20150803162129) do
 
   create_table "videos", force: :cascade do |t|
     t.string   "subject"
-    t.string   "video_url"
+    t.string   "link_url"
     t.string   "author"
     t.string   "date_created"
     t.integer  "likes"

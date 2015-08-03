@@ -53,4 +53,8 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  get "videos" => "videos#index"
+  get "videos/:id" => "videos#show"
+
 end
