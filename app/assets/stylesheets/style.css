@@ -1,9 +1,15 @@
 body{
-  text-align: center;
-background-color: grey;
+  /*text-align:inherit;*/
+  /*color: blue;*/
+/*background-color: grey;*/
+/*background:-webkit-radial-gradient(center, rgba(66, 200, 239, 1) 0%, rgba(3, 171, 228, 0) 80%);*/
+ /*background: -webkit-linear-gradient(left,  #0f182b 0%,#2a3b53 33%,#2a3b53 66%,#0f182b 100%);*/
 }
 
 .display{
 
-  font-family:cursive;
+  font-family:serif;
+  color: white;
+
+  font-size: 1.2em;
 }

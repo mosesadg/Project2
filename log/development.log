@@ -8091,3 +8091,1092 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 19:02:52 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 19:58:45 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (1.2ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 242ms (Views: 209.0ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/assets/style.self-381465be21e000bb07fe6167573f5cc9f488749d7a1495ca87296581e4e0b15d.css?body=1" for ::1 at 2015-08-03 19:58:46 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 19:59:21 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.6ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 81ms (Views: 78.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 19:59:22 -0400
+
+
+Started GET "/assets/style.self-42352eeb07ae2ad72ec16436332f0c827402458449876fe506c8bb77d0e3a7b0.css?body=1" for ::1 at 2015-08-03 19:59:22 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 19:59:22 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 19:59:22 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 19:59:22 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 19:59:22 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:05:10 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 55ms (Views: 52.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-42352eeb07ae2ad72ec16436332f0c827402458449876fe506c8bb77d0e3a7b0.css?body=1" for ::1 at 2015-08-03 20:05:10 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:05:10 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:05:10 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:05:10 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:05:10 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:05:10 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:05:48 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 69ms (Views: 66.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-78c2b6994eaa552bcc2df9f3ae69674be976a7458f6dc0e1dfde88075c1ed18d.css?body=1" for ::1 at 2015-08-03 20:05:48 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:05:48 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:05:48 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:05:48 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:05:48 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:05:48 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:06:00 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:06:00 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:06:00 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:06:00 -0400
+
+
+Started GET "/assets/style.self-3fe3b7735fe04b51f679ed23f892c870246574c4235f60e032a99fae37bdf929.css?body=1" for ::1 at 2015-08-03 20:06:00 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:06:00 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:06:00 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:06:59 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.4ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/style.self-2386f66d2071cc8d6481f0bfbb3ee1049c377834ca36405a1f97fe901539aabc.css?body=1" for ::1 at 2015-08-03 20:06:59 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:06:59 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:06:59 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:06:59 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:06:59 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:06:59 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:07:07 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 53ms (Views: 50.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-5d6bdbf5405fd9faf0857b64849e7c333f2cb87ebb7182e46752928af980b509.css?body=1" for ::1 at 2015-08-03 20:07:07 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:07:07 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:07:07 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:07:07 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:07:07 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:07:07 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:07:27 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 60ms (Views: 57.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-3b12634c964a6cc61374e9b7c8f2a499584f69ff74c8252149ce706fa66d1c4a.css?body=1" for ::1 at 2015-08-03 20:07:27 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:07:27 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:07:27 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:07:27 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:07:27 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:07:27 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:08:03 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 55ms (Views: 52.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-4d8d2ff8f0da9b900e0be0151cc6ee587e14e38de4dfde5add4ca6d192e8f345.css?body=1" for ::1 at 2015-08-03 20:08:03 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:08:03 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:08:03 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:08:03 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:08:03 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:08:03 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:08:16 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 48.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-9321281293106d37f2548041969fa6d35f31f7542a2a0ef3cf1e2f5034ef2044.css?body=1" for ::1 at 2015-08-03 20:08:16 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:08:16 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:08:16 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:08:16 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:08:16 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:08:16 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:08:25 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 45.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-6d4f5017e3fbc093b7fd61fbb4575330c18e73932520e3f43b55eab3d4f4b616.css?body=1" for ::1 at 2015-08-03 20:08:25 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:08:25 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:08:25 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:08:25 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:08:25 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:08:25 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:08:31 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.6ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 56ms (Views: 53.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/style.self-792e53a0797f8bfd8aa0bced583b8175e3fd7bdf99011f3af534dd75cc83105d.css?body=1" for ::1 at 2015-08-03 20:08:31 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:08:31 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:08:31 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:08:31 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:08:31 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:08:31 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:08:42 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 59ms (Views: 56.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-c9267aa162dede3e0c9541c3db6a0ff444e7addbe46d2faa46e0f0ff727430d8.css?body=1" for ::1 at 2015-08-03 20:08:43 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:08:43 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:08:43 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:08:43 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:08:43 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:08:43 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:08:50 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 54ms (Views: 51.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-44fe071409f367adc3f1b0f7892d556b0d51d67dbcd668f9ca288aac19d5a209.css?body=1" for ::1 at 2015-08-03 20:08:50 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:08:50 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:08:50 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:08:50 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:08:50 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:08:50 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:09:02 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 47.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:09:02 -0400
+
+
+Started GET "/assets/style.self-51e7eecb3ec73006e9baac22ab78baa478ffed39eee74f06283a4d3e08ee5f4e.css?body=1" for ::1 at 2015-08-03 20:09:02 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:09:02 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:09:02 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:09:02 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:09:02 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:09:15 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 55ms (Views: 52.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-a4df7156f65dc775c92c3683da7c0893b0857ed4567bf6171bca052a0007ab47.css?body=1" for ::1 at 2015-08-03 20:09:15 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:09:15 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:09:15 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:09:15 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:09:15 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:09:15 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:09:33 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 55ms (Views: 52.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:09:33 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:09:33 -0400
+
+
+Started GET "/assets/style.self-f405ea96ff07676ec8432255f053e080ed3a1dfb84c908141f49c1e987c55d02.css?body=1" for ::1 at 2015-08-03 20:09:33 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:09:33 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:09:33 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:09:33 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:09:46 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.7ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 58ms (Views: 56.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/style.self-65a76e60149fa01e8b31788d316a3717cb625979af686b43bba660fc2951306c.css?body=1" for ::1 at 2015-08-03 20:09:46 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:09:46 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:09:46 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:09:46 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:09:46 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:09:46 -0400
+
+
+Started GET "/videos/16" for ::1 at 2015-08-03 20:10:49 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[35mVideo Load (0.5ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 16]]
+  Rendered videos/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 28.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/videos/16" for ::1 at 2015-08-03 20:11:03 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mVideo Load (0.4ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  Rendered videos/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 33ms (Views: 31.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/videos/18" for ::1 at 2015-08-03 20:11:08 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[35mVideo Load (0.6ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 18]]
+  Rendered videos/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:14:08 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.4ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `link_url' for nil:NilClass):
+    13:                   </a>
+    14:     </li><br>
+    15: 
+    16:     <iframe width="600" height="315" src="<%=@video1.link_url%>" frameborder="0" allowfullscreen></iframe>
+    17:     <br><br><br>
+    18: 
+    19: 
+  app/views/videos/index.html.erb:16:in `block in _app_views_videos_index_html_erb___3864074605073235642_70264653923420'
+  app/views/videos/index.html.erb:4:in `each'
+  app/views/videos/index.html.erb:4:in `_app_views_videos_index_html_erb___3864074605073235642_70264653923420'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (80.6ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (63.6ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (145.3ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:14:46 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (1.0ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.0ms)
+
+ActionView::Template::Error (undefined method `link_url' for nil:NilClass):
+    13:                   </a>
+    14:     </li><br>
+    15: 
+    16:   <iframe width="650" height="415" class='artist-photo' src="<%= @video1.link_url %>">
+    17:     <br><br><br>
+    18: 
+    19: 
+  app/views/videos/index.html.erb:16:in `block in _app_views_videos_index_html_erb___3864074605073235642_70264641320560'
+  app/views/videos/index.html.erb:4:in `each'
+  app/views/videos/index.html.erb:4:in `_app_views_videos_index_html_erb___3864074605073235642_70264641320560'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.1ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (76.2ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (59.6ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (132.9ms)
+
+
+Started GET "/videos/1" for ::1 at 2015-08-03 20:29:24 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mVideo Load (0.4ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.4ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Video with 'id'=1):
+  app/controllers/videos_controller.rb:7:in `show'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (54.1ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (127.3ms)
+
+
+Started GET "/videos/1" for ::1 at 2015-08-03 20:33:47 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mVideo Load (0.8ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 404 Not Found in 3ms (ActiveRecord: 0.8ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Video with 'id'=1):
+  app/controllers/videos_controller.rb:7:in `show'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (161.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (132.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (293.8ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:33:51 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (1.1ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (18.7ms)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 1.1ms)
+
+ActionView::Template::Error (Missing partial videos/_video with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/vijayakumarmoses/wdi/sandbox/Project2/app/views"
+):
+    4:     <% @videos.each do |video| %>
+    5:     <li class="display">
+    6:         <a href ="/videos/<%= video.id %>">
+    7:           <%= render @videos %>
+    8: 
+    9:                   </a>
+   10:     </li><br>
+  app/views/videos/index.html.erb:7:in `block in _app_views_videos_index_html_erb___3864074605073235642_70264609780700'
+  app/views/videos/index.html.erb:4:in `each'
+  app/views/videos/index.html.erb:4:in `_app_views_videos_index_html_erb___3864074605073235642_70264609780700'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (165.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (160.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (362.0ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:34:35 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (1.0ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 1.0ms)
+
+ActionView::Template::Error ('nil' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+    4:     <% @videos.each do |video| %>
+    5:     <li class="display">
+    6:         <a href ="/videos/<%= video.id %>">
+    7:           <%= render@video %>
+    8: 
+    9:                   </a>
+   10:     </li><br>
+  app/views/videos/index.html.erb:7:in `block in _app_views_videos_index_html_erb___3864074605073235642_70264663215840'
+  app/views/videos/index.html.erb:4:in `each'
+  app/views/videos/index.html.erb:4:in `_app_views_videos_index_html_erb___3864074605073235642_70264663215840'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (166.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (133.2ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (304.0ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:34:46 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (1.1ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 74ms (Views: 69.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/style.self-65a76e60149fa01e8b31788d316a3717cb625979af686b43bba660fc2951306c.css?body=1" for ::1 at 2015-08-03 20:34:47 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:34:47 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:34:47 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:34:47 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:34:47 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:34:47 -0400
+
+
+Started GET "/videos/16" for ::1 at 2015-08-03 20:34:51 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[35mVideo Load (0.8ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 16]]
+  Rendered videos/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 64ms (Views: 61.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:35:17 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (1.1ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 1.1ms)
+
+ActionView::Template::Error (undefined method `link_url' for nil:NilClass):
+     9:               <%= video1.date_created%><br>
+    10:                 <%= video1.likes%><br>
+    11:                 <%= video1.link_url%><br>
+    12: <iframe width="650" height="415" class='artist-photo' src="<%= @video.link_url %>">
+    13:                   </a>
+    14:     </li><br>
+    15: 
+  app/views/videos/index.html.erb:12:in `block in _app_views_videos_index_html_erb___3864074605073235642_70264664532820'
+  app/views/videos/index.html.erb:4:in `each'
+  app/views/videos/index.html.erb:4:in `_app_views_videos_index_html_erb___3864074605073235642_70264664532820'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (22.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.9ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (193.6ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (144.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (316.6ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:41:14 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.9ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.9ms)
+
+SyntaxError (/Users/vijayakumarmoses/wdi/sandbox/Project2/app/views/videos/index.html.erb:12: syntax error, unexpected tLABEL
+...;@output_buffer.append=( https://www.youtube.com/watch?v=PEC...
+...                               ^
+/Users/vijayakumarmoses/wdi/sandbox/Project2/app/views/videos/index.html.erb:12: unknown regexp options - www
+/Users/vijayakumarmoses/wdi/sandbox/Project2/app/views/videos/index.html.erb:12: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...https://www.youtube.com/watch?v=PEC92DcDMcw);@output_buffer....
+...                               ^):
+  app/views/videos/index.html.erb:12: syntax error, unexpected tLABEL
+  app/views/videos/index.html.erb:12: unknown regexp options - www
+  app/views/videos/index.html.erb:12: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (165.9ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (133.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (297.1ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:41:39 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.9ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 70ms (Views: 66.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/style.self-65a76e60149fa01e8b31788d316a3717cb625979af686b43bba660fc2951306c.css?body=1" for ::1 at 2015-08-03 20:41:39 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:41:39 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:41:39 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:41:39 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:41:39 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:41:39 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:42:00 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (1.0ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 69ms (Views: 65.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/style.self-65a76e60149fa01e8b31788d316a3717cb625979af686b43bba660fc2951306c.css?body=1" for ::1 at 2015-08-03 20:42:00 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:42:00 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:42:00 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:42:00 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:42:00 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:42:00 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:42:19 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.9ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 73ms (Views: 69.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/style.self-65a76e60149fa01e8b31788d316a3717cb625979af686b43bba660fc2951306c.css?body=1" for ::1 at 2015-08-03 20:42:19 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:42:19 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:42:19 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:42:19 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:42:19 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:42:19 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 20:42:44 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.9ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 74ms (Views: 71.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 20:42:44 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 20:42:44 -0400
+
+
+Started GET "/assets/style.self-65a76e60149fa01e8b31788d316a3717cb625979af686b43bba660fc2951306c.css?body=1" for ::1 at 2015-08-03 20:42:44 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 20:42:44 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 20:42:44 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 20:42:44 -0400
+
+
+Started GET "/videos/16" for ::1 at 2015-08-03 21:14:51 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 16]]
+  Rendered videos/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/videos/18" for ::1 at 2015-08-03 21:15:02 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[35mVideo Load (0.3ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 18]]
+  Rendered videos/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-03 21:15:20 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 33ms (Views: 30.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-65a76e60149fa01e8b31788d316a3717cb625979af686b43bba660fc2951306c.css?body=1" for ::1 at 2015-08-03 21:15:20 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 21:15:20 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 21:15:20 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 21:15:20 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 21:15:20 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 21:15:20 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 21:15:49 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.6ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/style.self-65a76e60149fa01e8b31788d316a3717cb625979af686b43bba660fc2951306c.css?body=1" for ::1 at 2015-08-03 21:15:49 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 21:15:49 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 21:15:49 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 21:15:49 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 21:15:49 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 21:15:49 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 21:22:10 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.4ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (16.2ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined local variable or method `video' for #<#<Class:0x007fcf827481d8>:0x007fcf841af1e8>):
+    13: 
+    14:                   </a>
+    15: 
+    16:                   <%= link_to video.subject, video_path(video) %>
+    17:     </li><br>
+    18: 
+    19: 
+  app/views/videos/index.html.erb:16:in `block in _app_views_videos_index_html_erb___3864074605073235642_70264625655720'
+  app/views/videos/index.html.erb:4:in `each'
+  app/views/videos/index.html.erb:4:in `_app_views_videos_index_html_erb___3864074605073235642_70264625655720'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (76.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (62.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (138.8ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-03 21:22:35 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-65a76e60149fa01e8b31788d316a3717cb625979af686b43bba660fc2951306c.css?body=1" for ::1 at 2015-08-03 21:22:35 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 21:22:35 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 21:22:35 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 21:22:35 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 21:22:35 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 21:22:35 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 21:22:44 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-03 21:22:45 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-03 21:24:16 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.6ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/style.self-65a76e60149fa01e8b31788d316a3717cb625979af686b43bba660fc2951306c.css?body=1" for ::1 at 2015-08-03 21:24:16 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 21:24:16 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 21:24:16 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 21:24:16 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 21:24:16 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 21:24:16 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-03 21:24:28 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.6ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 31ms (Views: 28.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-03 21:24:29 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (1.0ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 37ms (Views: 33.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-03 21:28:12 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.2ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", nil]]
+Completed 404 Not Found in 9ms (ActiveRecord: 3.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Video with 'id'=):
+  app/controllers/videos_controller.rb:3:in `index'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (58.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (128.7ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-03 21:29:49 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.8ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 46ms (Views: 33.3ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/style.self-65a76e60149fa01e8b31788d316a3717cb625979af686b43bba660fc2951306c.css?body=1" for ::1 at 2015-08-03 21:29:49 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-03 21:29:49 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-03 21:29:49 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-03 21:29:49 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-03 21:29:49 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-03 21:29:49 -0400
+
+
+Started GET "/videos/16" for ::1 at 2015-08-03 21:29:54 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[35mVideo Load (0.3ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 16]]
+  Rendered videos/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 31ms (Views: 28.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/videos/18" for ::1 at 2015-08-03 21:29:58 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  Rendered videos/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/videos/15" for ::1 at 2015-08-03 21:30:02 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[35mVideo Load (0.4ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 15]]
+  Rendered videos/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 0.4ms)

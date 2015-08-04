@@ -1,6 +1,8 @@
 class VideosController < ApplicationController
   def index
+    
     @videos = Video.all.order(:likes).reverse
+
     end
 
     def show
