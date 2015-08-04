@@ -1,17 +1,15 @@
 <h2>brodKast Videos <a href ="/videos/new">(+)</a></h2>
 <ul>
-    <% @videos.each do |video1| %>
+    <% @videos.each do |video| %>
     <li class="display">
-        <a href ="/videos/<%= video1.id %>">
-          Subject: <%= video1.subject%><br>
-            Author:<%= video1.author%><br>
-              Date:<%= video1.date_created%><br>
-                Likes:<%= video1.likes%><br>
-                URL:<%= video1.link_url%><br>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Dji9ALCgfpM" frameborder="0" allowfullscreen></iframe>
-
-                </a>
+        <a href ="/videos/<%= video.id %>">
+          Subject: <%= video.subject%><br>
+            Author:<%= video.author%><br>
+              Date:<%= video.date_created%><br>
+                Likes:<%= video.likes%><br>
+                URL:<%= video.link_url%><br>
+     <iframe width="560" height="315" src="<%=video.link_url%>" frameborder="0" allowfullscreen></iframe>
+      </a>
     </li><br>
     <br><br><br>
     <% end %>

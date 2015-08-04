@@ -1,0 +1,28 @@
+<h2>Edit Video Post</h2>
+
+<form action="/videos/<%= @video.id %>" method="post">
+  <input type="hidden" name="_method" value="put">
+
+  <label for="video[subject]">Subject:</label>
+  <input name="video[subject]" value="<%= @video.subject %>">
+
+  <label for="video[author]">Author:</label>
+  <input name="video[author]" value="<%= @video.author %>">
+
+  <label for="video[date_created]">Date Created:</label>
+  <input name="video[date_created]" value="<%= @video.date_created %>">
+
+  <label for="video[likes]">Likes:</label>
+  <input name="video[likes]" value="<%= @video.likes %>">
+
+  <label for="video[link_url]">URL:</label>
+  <input name="video[link_url]" value="<%= @video.link_url %>">
+
+
+  <input type="submit" value="Create">
+</form>
+
+<form action="/videos/<%= @video.id %>" method="post">
+  <input type="hidden" name="_method" value="delete">
+  <input class="button-delete" type="submit" value="Delete!">
+</form>

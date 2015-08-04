@@ -1,5 +1,8 @@
 <h2><%= @video.subject %> <a href="/videos/<%= @video.id %>/edit">(edit)</a></h2>
 <h4><%= @video.author %></h4>
+<h4><%= @video.date_created %></h4>
+<h4><%= @video.link_url %></h4>
+<h4><%= @video.likes %></h4>
 
 <iframe width="650" height="415" class='artist-photo' src="<%= @video.link_url %>">
 
