@@ -9527,3 +9527,22 @@ Processing by VideosController#show as HTML
   [1m[36mVideo Load (0.5ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 21]]
   Rendered videos/show.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 53ms (Views: 50.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-04 09:50:28 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (1.1ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 265ms (Views: 229.3ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/assets/style.self-5db5e0b73416fa24249edab84dcee1b1949f763816a2242a71613b0824231f0d.css?body=1" for ::1 at 2015-08-04 09:50:29 -0400
+
+
+Started GET "/videos/21" for ::1 at 2015-08-04 09:50:54 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  Rendered videos/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 68ms (Views: 54.4ms | ActiveRecord: 0.7ms)

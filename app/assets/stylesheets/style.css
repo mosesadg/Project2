@@ -4,6 +4,12 @@ body{
 /*background-color: grey;*/
 /*background:-webkit-radial-gradient(center, rgba(66, 200, 239, 1) 0%, rgba(3, 171, 228, 0) 80%);*/
  /*background: -webkit-linear-gradient(left,  #0f182b 0%,#2a3b53 33%,#2a3b53 66%,#0f182b 100%);*/
+ margin: 40px auto;
+ max-width: 650px;
+ line-height: 1.6;
+ font-size: 18px;
+ color: #444;
+ padding: 0 10px
 }
 
 .display{
