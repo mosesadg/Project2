@@ -3,25 +3,27 @@
 <%= submit_tag "Search" %>
 <% end %>
 
-<h2>brodKast Videos <a href ="/videos/new">(+)</a></h2>
+<!-- <h2>brodKast Videos <a href ="/videos/new">(+)</a></h2> -->
 <ul>
     <% @videos.each do |video| %>
+
     <li class="display">
         <a href ="/videos/<%= video.id %>">
+      <iframe width="360" height="215" src="<%=video.link_url%>" frameborder="0" allowfullscreen></iframe><br>
           Subject: <%= video.subject%><br>
+
             Author:<%= video.author%><br>
               Date:<%= video.date_created%><br>
                 Likes:<%= video.likes%><br>
-                <!-- URL:<%= video.link_url%><br> -->
-
       </a>
 <br>
-      <iframe width="360" height="215" src="<%=video.link_url%>" frameborder="0" allowfullscreen></iframe>
+
 
 <br>
 
 <hr>
     </li>
+
 
     <% end %>
 </ul
