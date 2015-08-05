@@ -11828,3 +11828,1847 @@ Processing by VideosController#index as HTML
   [1m[36mVideo Load (0.7ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
   Rendered videos/index.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 34ms (Views: 31.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-04 12:13:15 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (1.2ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 243ms (Views: 209.9ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/assets/style.self-5db5e0b73416fa24249edab84dcee1b1949f763816a2242a71613b0824231f0d.css?body=1" for ::1 at 2015-08-04 12:13:15 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 12:13:15 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 12:13:15 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 12:13:15 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 12:13:15 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 12:13:15 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-04 12:16:57 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.7ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 84ms (Views: 80.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/style.self-2b4f0be3a10faa7ec89ebecc83fe0fc8ddec1afebf97a0e39667737be7cbd0da.css?body=1" for ::1 at 2015-08-04 12:16:57 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 12:16:57 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 12:16:57 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 12:16:57 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 12:16:57 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 12:16:57 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-04 12:20:20 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.8ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 103ms (Views: 99.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/style.self-58774db32056519a7bf0d17e7a7962b71b3f10fecae468667ebb6b90a660c141.css?body=1" for ::1 at 2015-08-04 12:20:21 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 12:20:21 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 12:20:21 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 12:20:21 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 12:20:21 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 12:20:21 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-04 12:21:52 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.6ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 74ms (Views: 72.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/style.self-5d39399b87a5772e8cebf48ba13a4013a5d83c02734c2380c3dfe868554e4477.css?body=1" for ::1 at 2015-08-04 12:21:52 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 12:21:52 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 12:21:52 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 12:21:52 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 12:21:52 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 12:21:52 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-04 12:22:33 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.6ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 53ms (Views: 51.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 12:22:33 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 12:22:33 -0400
+
+
+Started GET "/assets/style.self-604224bca8df3faea8e0fa2f649ba6ae31769a5d50ac666a51e9ea101b261249.css?body=1" for ::1 at 2015-08-04 12:22:33 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 12:22:33 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 12:22:33 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 12:22:33 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-04 12:23:01 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 51ms (Views: 49.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-3088e22e9a762fb0f59cbcfd00441c817e4b0c850d6457d117ec97fd96cb5e39.css?body=1" for ::1 at 2015-08-04 12:23:01 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 12:23:01 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 12:23:01 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 12:23:01 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 12:23:01 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 12:23:01 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-04 12:23:50 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 59ms (Views: 56.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 12:23:50 -0400
+
+
+Started GET "/assets/style.self-9592a7870bf87efd6150b74b18d792b2331c20bc97a8de2671ef4ec489fb3496.css?body=1" for ::1 at 2015-08-04 12:23:50 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 12:23:50 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 12:23:50 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 12:23:50 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 12:23:50 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-04 12:24:39 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 72ms (Views: 69.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-9b73970e4ec961e0227976cefc1665e732ff02afd6975192406bc333aa627ced.css?body=1" for ::1 at 2015-08-04 12:24:39 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 12:24:39 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 12:24:39 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 12:24:39 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 12:24:39 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 12:24:39 -0400
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 12:24:47 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mVideo Load (0.5ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 19]]
+  Rendered videos/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 51ms (Views: 34.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-04 12:26:13 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 54ms (Views: 51.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 12:26:13 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 12:26:13 -0400
+
+
+Started GET "/assets/style.self-0ea27459a894dfd14e144ad845ae8ab3ca349415c24a6bf7b38c5d927848d688.css?body=1" for ::1 at 2015-08-04 12:26:13 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 12:26:13 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 12:26:13 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 12:26:13 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-04 12:26:53 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 56ms (Views: 54.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 12:26:53 -0400
+
+
+Started GET "/assets/style.self-b532a7fa61be7acf1ca1affb65d76d2a059104a9c2e1e1afb6d5af85400e1e0c.css?body=1" for ::1 at 2015-08-04 12:26:53 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 12:26:53 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 12:26:53 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 12:26:53 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 12:26:53 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-04 12:29:22 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.7ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 78ms (Views: 75.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 12:29:22 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 12:29:22 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 12:29:22 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 12:29:22 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 12:29:22 -0400
+
+
+Started GET "/assets/style.self-1a3c6b1dbcdc9dd302516582915bfd24522bc204c7d49db387ef450643a535f3.css?body=1" for ::1 at 2015-08-04 12:29:22 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-04 12:29:47 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.8ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 80ms (Views: 76.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/style.self-8ea13af9dab2f5a7cc59a90ee93fef24f2eb5a418723186c6aa6d237d4915cb7.css?body=1" for ::1 at 2015-08-04 12:29:47 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 12:29:47 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 12:29:47 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 12:29:47 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 12:29:47 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 12:29:47 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-04 12:29:59 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.9ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 92ms (Views: 89.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/style.self-76976cc64f4cf80811a01dcbad61de091648b63b2074e4e7d016be1413a4c89d.css?body=1" for ::1 at 2015-08-04 12:29:59 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 12:29:59 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 12:29:59 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 12:29:59 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 12:29:59 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 12:29:59 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-04 12:30:46 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (1.0ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 117ms (Views: 112.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/style.self-6898c1f5462fc3fca00ba3c79965b57e1826e2d574bb2a875358c88c744cc0b7.css?body=1" for ::1 at 2015-08-04 12:30:46 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 12:30:46 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 12:30:46 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 12:30:46 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 12:30:46 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 12:30:46 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-04 12:44:50 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 12:44:50 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 12:44:50 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 12:44:50 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 12:44:50 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 12:44:50 -0400
+
+
+Started GET "/assets/style.self-6898c1f5462fc3fca00ba3c79965b57e1826e2d574bb2a875358c88c744cc0b7.css?body=1" for ::1 at 2015-08-04 12:44:50 -0400
+
+
+Started GET "/" for ::1 at 2015-08-04 21:47:27 -0400
+
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `initialize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `new'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `connect'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/vijayakumarmoses/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/vijayakumarmoses/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.3) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.3) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.3) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.3) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/vijayakumarmoses/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/vijayakumarmoses/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/vijayakumarmoses/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (70.6ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (61.1ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (139.8ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-04 21:47:28 -0400
+
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `initialize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `new'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `connect'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/vijayakumarmoses/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/vijayakumarmoses/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.3) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.3) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.3) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.3) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/vijayakumarmoses/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/vijayakumarmoses/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/vijayakumarmoses/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (62.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (127.4ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-04 21:47:36 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (4.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (6.3ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 239ms (Views: 194.4ms | ActiveRecord: 17.9ms)
+
+
+Started GET "/videos/31" for ::1 at 2015-08-04 21:47:43 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 31]]
+  Rendered videos/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 48ms (Views: 35.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-04 21:49:19 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.7ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 36.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/comments" for ::1 at 2015-08-04 21:49:21 -0400
+Processing by CommentsController#index as HTML
+  [1m[36mComment Load (1.9ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+  [1m[35mVideo Load (0.4ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 19]]
+  Rendered comments/index.html.erb within layouts/application (42.7ms)
+Completed 200 OK in 79ms (Views: 72.2ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-04 21:49:30 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.6ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 37ms (Views: 34.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/videos/31" for ::1 at 2015-08-04 21:49:40 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[35mVideo Load (0.6ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 31]]
+  Rendered videos/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 37ms (Views: 34.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-04 21:53:29 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.6ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 48ms (Views: 44.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/videos/31" for ::1 at 2015-08-04 21:53:32 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[35mVideo Load (0.4ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 31]]
+  [1m[36mComment Load (0.8ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1[0m  [["video_id", 31]]
+  Rendered videos/show.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 67ms (Views: 64.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/videos/31" for ::1 at 2015-08-04 21:54:15 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[35mVideo Load (0.5ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 31]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1[0m  [["video_id", 31]]
+  Rendered videos/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 40ms (Views: 37.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/comments" for ::1 at 2015-08-04 21:54:21 -0400
+Processing by CommentsController#index as HTML
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments"
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  Rendered comments/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 36ms (Views: 34.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/comments/6" for ::1 at 2015-08-04 21:54:22 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mComment Load (2.8ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 6]]
+  Rendered comments/show.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 2.8ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h2>Comments <a href="/comments/new">(+)</a></h2>
+    2: 
+    3: <ul>
+    4:   <% @comments.each do |comment| %>
+    5:     <li>
+    6:       <a href="/comments/<%= comment.id %>">
+    7:         <%= comment.text_body %> - <%= comment.video.subject %>
+  app/views/comments/show.html.erb:4:in `_app_views_comments_show_html_erb___4229495337757916764_70218526764100'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.2ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (51.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (116.5ms)
+
+
+Started GET "/comments/6" for ::1 at 2015-08-04 21:54:23 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  Rendered comments/show.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h2>Comments <a href="/comments/new">(+)</a></h2>
+    2: 
+    3: <ul>
+    4:   <% @comments.each do |comment| %>
+    5:     <li>
+    6:       <a href="/comments/<%= comment.id %>">
+    7:         <%= comment.text_body %> - <%= comment.video.subject %>
+  app/views/comments/show.html.erb:4:in `_app_views_comments_show_html_erb___4229495337757916764_70218549423660'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (65.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (54.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (122.5ms)
+
+
+Started GET "/videos/31" for ::1 at 2015-08-04 21:54:30 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[35mVideo Load (0.3ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 31]]
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1[0m  [["video_id", 31]]
+  Rendered videos/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 35ms (Views: 33.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-04 21:55:09 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 21:55:19 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mVideo Load (0.4ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/comments/6" for ::1 at 2015-08-04 21:55:22 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  Rendered comments/show.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h2>Comments <a href="/comments/new">(+)</a></h2>
+    2: 
+    3: <ul>
+    4:   <% @comments.each do |comment| %>
+    5:     <li>
+    6:       <a href="/comments/<%= comment.id %>">
+    7:         <%= comment.text_body %> - <%= comment.video.subject %>
+  app/views/comments/show.html.erb:4:in `_app_views_comments_show_html_erb___4229495337757916764_70218526764100'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.9ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (54.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (119.1ms)
+
+
+Started GET "/comments/6" for ::1 at 2015-08-04 21:55:22 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mComment Load (0.4ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 6]]
+  Rendered comments/show.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h2>Comments <a href="/comments/new">(+)</a></h2>
+    2: 
+    3: <ul>
+    4:   <% @comments.each do |comment| %>
+    5:     <li>
+    6:       <a href="/comments/<%= comment.id %>">
+    7:         <%= comment.text_body %> - <%= comment.video.subject %>
+  app/views/comments/show.html.erb:4:in `_app_views_comments_show_html_erb___4229495337757916764_70218549423660'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (73.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (55.9ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (125.0ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-04 21:55:29 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.6ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 31.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 21:55:32 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mVideo Load (0.4ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 19]]
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1[0m  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 40ms (Views: 37.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-04 21:55:36 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.4ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 21:55:43 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mVideo Load (0.4ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 35ms (Views: 32.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 21:56:16 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 33ms (Views: 31.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-6898c1f5462fc3fca00ba3c79965b57e1826e2d574bb2a875358c88c744cc0b7.css?body=1" for ::1 at 2015-08-04 21:56:16 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 21:56:16 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 21:56:16 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 21:56:16 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 21:56:16 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 21:56:16 -0400
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 21:56:25 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mVideo Load (0.8ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 39ms (Views: 36.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 21:56:25 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 21:56:25 -0400
+
+
+Started GET "/assets/style.self-6898c1f5462fc3fca00ba3c79965b57e1826e2d574bb2a875358c88c744cc0b7.css?body=1" for ::1 at 2015-08-04 21:56:25 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 21:56:25 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 21:56:25 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 21:56:25 -0400
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 21:56:53 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/style.self-6898c1f5462fc3fca00ba3c79965b57e1826e2d574bb2a875358c88c744cc0b7.css?body=1" for ::1 at 2015-08-04 21:56:53 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 21:56:53 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 21:56:53 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 21:56:53 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 21:56:53 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 21:56:53 -0400
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 21:57:26 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 34ms (Views: 32.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 21:57:26 -0400
+
+
+Started GET "/assets/style.self-6898c1f5462fc3fca00ba3c79965b57e1826e2d574bb2a875358c88c744cc0b7.css?body=1" for ::1 at 2015-08-04 21:57:26 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 21:57:26 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 21:57:26 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 21:57:26 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 21:57:26 -0400
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 21:57:37 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 41ms (Views: 38.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/style.self-6898c1f5462fc3fca00ba3c79965b57e1826e2d574bb2a875358c88c744cc0b7.css?body=1" for ::1 at 2015-08-04 21:57:37 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 21:57:37 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 21:57:37 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 21:57:37 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 21:57:37 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 21:57:38 -0400
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 21:57:51 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-6898c1f5462fc3fca00ba3c79965b57e1826e2d574bb2a875358c88c744cc0b7.css?body=1" for ::1 at 2015-08-04 21:57:51 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 21:57:51 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 21:57:51 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 21:57:51 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 21:57:51 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 21:57:51 -0400
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 21:57:59 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/style.self-6898c1f5462fc3fca00ba3c79965b57e1826e2d574bb2a875358c88c744cc0b7.css?body=1" for ::1 at 2015-08-04 21:57:59 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 21:57:59 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 21:57:59 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 21:57:59 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 21:57:59 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 21:57:59 -0400
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 21:58:21 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 21:58:21 -0400
+
+
+Started GET "/assets/style.self-6898c1f5462fc3fca00ba3c79965b57e1826e2d574bb2a875358c88c744cc0b7.css?body=1" for ::1 at 2015-08-04 21:58:21 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 21:58:21 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 21:58:21 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 21:58:21 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 21:58:21 -0400
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 21:58:34 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/style.self-6898c1f5462fc3fca00ba3c79965b57e1826e2d574bb2a875358c88c744cc0b7.css?body=1" for ::1 at 2015-08-04 21:58:34 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 21:58:34 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 21:58:34 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 21:58:34 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 21:58:34 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 21:58:34 -0400
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 21:59:07 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-6898c1f5462fc3fca00ba3c79965b57e1826e2d574bb2a875358c88c744cc0b7.css?body=1" for ::1 at 2015-08-04 21:59:07 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 21:59:07 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 21:59:07 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 21:59:07 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 21:59:07 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 21:59:07 -0400
+
+
+Started GET "/comments/6" for ::1 at 2015-08-04 21:59:11 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  Rendered comments/show.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h2>Comments <a href="/comments/new">(+)</a></h2>
+    2: 
+    3: <ul>
+    4:   <% @comments.each do |comment| %>
+    5:     <li>
+    6:       <a href="/comments/<%= comment.id %>">
+    7:         <%= comment.text_body %> - <%= comment.video.subject %>
+  app/views/comments/show.html.erb:4:in `_app_views_comments_show_html_erb___4229495337757916764_70218526764100'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (69.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (53.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (118.8ms)
+
+
+Started GET "/comments/6" for ::1 at 2015-08-04 21:59:11 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mComment Load (0.5ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 6]]
+  Rendered comments/show.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h2>Comments <a href="/comments/new">(+)</a></h2>
+    2: 
+    3: <ul>
+    4:   <% @comments.each do |comment| %>
+    5:     <li>
+    6:       <a href="/comments/<%= comment.id %>">
+    7:         <%= comment.text_body %> - <%= comment.video.subject %>
+  app/views/comments/show.html.erb:4:in `_app_views_comments_show_html_erb___4229495337757916764_70218549423660'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (69.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (51.2ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (117.6ms)
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 21:59:24 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 34ms (Views: 31.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 21:59:24 -0400
+
+
+Started GET "/assets/style.self-6898c1f5462fc3fca00ba3c79965b57e1826e2d574bb2a875358c88c744cc0b7.css?body=1" for ::1 at 2015-08-04 21:59:24 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 21:59:24 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 21:59:24 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 21:59:24 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 21:59:24 -0400
+
+
+Started GET "/comments" for ::1 at 2015-08-04 21:59:32 -0400
+Processing by CommentsController#index as HTML
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+  [1m[35mVideo Load (0.2ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 19]]
+  Rendered comments/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/comments/new" for ::1 at 2015-08-04 21:59:33 -0400
+Processing by CommentsController#new as HTML
+  Rendered comments/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comments/6" for ::1 at 2015-08-04 21:59:55 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  Rendered comments/show.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h2>Comments <a href="/comments/new">(+)</a></h2>
+    2: 
+    3: <ul>
+    4:   <% @comments.each do |comment| %>
+    5:     <li>
+    6:       <a href="/comments/<%= comment.id %>">
+    7:         <%= comment.text_body %> - <%= comment.video.subject %>
+  app/views/comments/show.html.erb:4:in `_app_views_comments_show_html_erb___4229495337757916764_70218526764100'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (73.1ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (54.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (122.4ms)
+
+
+Started GET "/comments/6" for ::1 at 2015-08-04 21:59:55 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mComment Load (0.3ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 6]]
+  Rendered comments/show.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h2>Comments <a href="/comments/new">(+)</a></h2>
+    2: 
+    3: <ul>
+    4:   <% @comments.each do |comment| %>
+    5:     <li>
+    6:       <a href="/comments/<%= comment.id %>">
+    7:         <%= comment.text_body %> - <%= comment.video.subject %>
+  app/views/comments/show.html.erb:4:in `_app_views_comments_show_html_erb___4229495337757916764_70218549423660'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (68.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (52.9ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (121.9ms)
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 22:04:08 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mVideo Load (0.4ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 38ms (Views: 35.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-04 22:04:09 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/videos/31" for ::1 at 2015-08-04 22:04:13 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[35mVideo Load (0.3ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 31]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1[0m  [["video_id", 31]]
+  Rendered videos/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/videos/31" for ::1 at 2015-08-04 22:04:23 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[35mVideo Load (0.3ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 31]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1[0m  [["video_id", 31]]
+  Rendered videos/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-04 22:04:35 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 22:04:35 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 22:04:35 -0400
+
+
+Started GET "/assets/style.self-6898c1f5462fc3fca00ba3c79965b57e1826e2d574bb2a875358c88c744cc0b7.css?body=1" for ::1 at 2015-08-04 22:04:35 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 22:04:35 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 22:04:35 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 22:04:35 -0400
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 22:04:52 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 45ms (Views: 42.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/comments/6" for ::1 at 2015-08-04 22:04:56 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 19]]
+  Rendered comments/show.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (undefined method `preview_url' for nil:NilClass):
+    3: 
+    4: Author: <%= @comment.author %></br>
+    5: 
+    6: <audio controls src="<%= @song.preview_url %>"></audio>
+  app/views/comments/show.html.erb:6:in `_app_views_comments_show_html_erb___4229495337757916764_70218567598140'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (68.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (57.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (126.3ms)
+
+
+Started GET "/comments/6" for ::1 at 2015-08-04 22:04:56 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 19]]
+  Rendered comments/show.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (undefined method `preview_url' for nil:NilClass):
+    3: 
+    4: Author: <%= @comment.author %></br>
+    5: 
+    6: <audio controls src="<%= @song.preview_url %>"></audio>
+  app/views/comments/show.html.erb:6:in `_app_views_comments_show_html_erb___4229495337757916764_70218555119260'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (68.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (51.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (122.6ms)
+
+
+Started GET "/comments/6" for ::1 at 2015-08-04 22:05:15 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 19]]
+  Rendered comments/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/style.self-6898c1f5462fc3fca00ba3c79965b57e1826e2d574bb2a875358c88c744cc0b7.css?body=1" for ::1 at 2015-08-04 22:05:15 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 22:05:15 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 22:05:15 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 22:05:15 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 22:05:15 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 22:05:15 -0400
+
+
+Started GET "/comments/6/edit" for ::1 at 2015-08-04 22:05:19 -0400
+Processing by CommentsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  Rendered comments/edit.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    1: <h2>Edit Comment</h2>
+    2: 
+    3: <form action="/comments/<%= @song.id %>" method="post">
+    4:   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    5:   <input type="hidden" name="_method" value="put">
+    6: 
+  app/views/comments/edit.html.erb:3:in `_app_views_comments_edit_html_erb___4115738360346385124_70218517753280'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (65.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (56.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (126.3ms)
+
+
+Started GET "/comments/6/edit" for ::1 at 2015-08-04 22:05:19 -0400
+Processing by CommentsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mComment Load (0.3ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 6]]
+  Rendered comments/edit.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    1: <h2>Edit Comment</h2>
+    2: 
+    3: <form action="/comments/<%= @song.id %>" method="post">
+    4:   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    5:   <input type="hidden" name="_method" value="put">
+    6: 
+  app/views/comments/edit.html.erb:3:in `_app_views_comments_edit_html_erb___4115738360346385124_70218567753140'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (66.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (52.2ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (120.3ms)
+
+
+Started GET "/comments/6/edit" for ::1 at 2015-08-04 22:05:36 -0400
+Processing by CommentsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  Rendered comments/edit.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    19:   <input type="submit" value="Create">
+    20: </form>
+    21: 
+    22: <form action="/comments/<%= @song.id %>" method="post">
+    23:   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    24:   <input type="hidden" name="_method" value="delete">
+    25:   <input class="button-delete" type="submit" value="Delete!">
+  app/views/comments/edit.html.erb:22:in `_app_views_comments_edit_html_erb___4115738360346385124_70218516564460'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (70.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (54.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (126.4ms)
+
+
+Started GET "/comments/6/edit" for ::1 at 2015-08-04 22:05:50 -0400
+Processing by CommentsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mComment Load (0.4ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 6]]
+  Rendered comments/edit.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/style.self-6898c1f5462fc3fca00ba3c79965b57e1826e2d574bb2a875358c88c744cc0b7.css?body=1" for ::1 at 2015-08-04 22:05:50 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 22:05:50 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 22:05:50 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 22:05:50 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 22:05:50 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 22:05:50 -0400
+
+
+Started PUT "/comments/6" for ::1 at 2015-08-04 22:06:02 -0400
+Processing by CommentsController#update as HTML
+  Parameters: {"authenticity_token"=>"SiAfhbtMXymqIwGHK61weESQfYqzcCnuogNRschjv1y1DHzfs7oX9d2jULIf4DM5qDEuE5oWXMT2aRO53IVPPg==", "comment"=>{"text_body"=>"Video 1 looks good, yay! & yay!", "author"=>"Mr.Utube", "date_created"=>"2015", "video_id"=>"19"}, "id"=>"6"}
+  [1m[36mComment Load (2.4ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (2.0ms)[0m  [1mUPDATE "comments" SET "text_body" = $1, "updated_at" = $2 WHERE "comments"."id" = $3[0m  [["text_body", "Video 1 looks good, yay! & yay!"], ["updated_at", "2015-08-05 02:06:02.344185"], ["id", 6]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/comments/6
+Completed 302 Found in 14ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/comments/6" for ::1 at 2015-08-04 22:06:02 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 19]]
+  Rendered comments/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-04 22:06:04 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.6ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 44ms (Views: 41.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 22:06:11 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mVideo Load (0.3ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 19]]
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1[0m  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 33ms (Views: 31.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/videos/19/edit" for ::1 at 2015-08-04 22:06:48 -0400
+Processing by VideosController#edit as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mVideo Load (2.2ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 19]]
+  Rendered videos/edit.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 78ms (Views: 73.8ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 22:06:52 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  [1m[35mComment Load (0.5ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 36ms (Views: 33.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/comments" for ::1 at 2015-08-04 22:06:54 -0400
+Processing by CommentsController#index as HTML
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+  [1m[35mVideo Load (0.2ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 19]]
+  Rendered comments/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/comments/new" for ::1 at 2015-08-04 22:06:56 -0400
+Processing by CommentsController#new as HTML
+  Rendered comments/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comments" for ::1 at 2015-08-04 22:07:30 -0400
+Processing by CommentsController#index as HTML
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT "comments".* FROM "comments"[0m
+  [1m[35mVideo Load (0.3ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 19]]
+  Rendered comments/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 22:07:30 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 22:07:30 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 22:07:30 -0400
+
+
+Started GET "/assets/style.self-6898c1f5462fc3fca00ba3c79965b57e1826e2d574bb2a875358c88c744cc0b7.css?body=1" for ::1 at 2015-08-04 22:07:30 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 22:07:30 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 22:07:30 -0400
+
+
+Started GET "/videos" for ::1 at 2015-08-04 22:07:32 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.5ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/videos/19" for ::1 at 2015-08-04 22:07:36 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mVideo Load (0.3ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 19]]
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1[0m  [["video_id", 19]]
+  Rendered videos/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 45ms (Views: 42.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/comments/new" for ::1 at 2015-08-04 22:07:39 -0400
+Processing by CommentsController#new as HTML
+  Rendered comments/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/comments" for ::1 at 2015-08-04 22:08:23 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"authenticity_token"=>"POcaOmr7Bx0Ct7wSUrhJQA0h04E6OzdlIJr2zxXhvb/Dy3lgYg1PwXU37Sdm9QoB4YCAGBNdQk908LTHAQdN3Q==", "comment"=>{"text_body"=>"Test comment", "author"=>"Anand", "date_created"=>"Aug 4th 2015", "video_id"=>"20"}}
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (2.1ms)[0m  [1mINSERT INTO "comments" ("text_body", "author", "date_created", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["text_body", "Test comment"], ["author", "Anand"], ["date_created", "Aug 4th 2015"], ["video_id", 20], ["created_at", "2015-08-05 02:08:23.078783"], ["updated_at", "2015-08-05 02:08:23.078783"]]
+  [1m[35m (0.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/comments/7
+Completed 302 Found in 8ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/comments/7" for ::1 at 2015-08-04 22:08:23 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mVideo Load (0.4ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 20]]
+  Rendered comments/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 39ms (Views: 36.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-04 22:08:32 -0400
+Processing by VideosController#index as HTML
+  [1m[36mVideo Load (0.6ms)[0m  [1mSELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC[0m
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 36ms (Views: 34.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/videos/20" for ::1 at 2015-08-04 22:08:37 -0400
+Processing by VideosController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[35mVideo Load (0.3ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 20]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."video_id" = $1[0m  [["video_id", 20]]
+  Rendered videos/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 35ms (Views: 32.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/comments/7" for ::1 at 2015-08-04 22:08:45 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mComment Load (0.3ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  Rendered comments/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 35ms (Views: 33.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/comments/7/edit" for ::1 at 2015-08-04 22:08:47 -0400
+Processing by CommentsController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mComment Load (0.4ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 7]]
+  Rendered comments/edit.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 34ms (Views: 32.5ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/comments/7" for ::1 at 2015-08-04 22:08:52 -0400
+Processing by CommentsController#update as HTML
+  Parameters: {"authenticity_token"=>"tBxn1ycLvAji0RpnfJmZmctu0YNL5CGT0S7rp02Yz1NLMASNL/301JVRS1JI1NrYJ8+CGmKCVLmFRKmvWX4/MQ==", "comment"=>{"text_body"=>"Test comment for python", "author"=>"Anand", "date_created"=>"Aug 4th 2015", "video_id"=>"20"}, "id"=>"7"}
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "comments" SET "text_body" = $1, "updated_at" = $2 WHERE "comments"."id" = $3[0m  [["text_body", "Test comment for python"], ["updated_at", "2015-08-05 02:08:52.777483"], ["id", 7]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/comments/7
+Completed 302 Found in 5ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/comments/7" for ::1 at 2015-08-04 22:08:52 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 20]]
+  Rendered comments/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 34ms (Views: 32.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/comments/7/edit" for ::1 at 2015-08-04 22:09:01 -0400
+Processing by CommentsController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  Rendered comments/edit.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 43ms (Views: 41.3ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/comments/7" for ::1 at 2015-08-04 22:09:07 -0400
+Processing by CommentsController#update as HTML
+  Parameters: {"authenticity_token"=>"yxzi5CzzKn9ZEARnD7nY/bYZ4AzrWL0PalY28TundsI0MIG+JAVioy6QVVI79Ju8WrizlcI+yCU+PHT5L0GGoA==", "comment"=>{"text_body"=>"Test comment for python", "author"=>"Anand", "date_created"=>"Aug 4th 2015", "video_id"=>"20"}, "id"=>"7"}
+  [1m[35mComment Load (0.3ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/comments/7
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/comments/7" for ::1 at 2015-08-04 22:09:07 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mVideo Load (0.3ms)[0m  SELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1  [["id", 20]]
+  Rendered comments/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 32ms (Views: 29.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/comments/7/edit" for ::1 at 2015-08-04 22:09:11 -0400
+Processing by CommentsController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  Rendered comments/edit.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/comments/7" for ::1 at 2015-08-04 22:09:12 -0400
+Processing by CommentsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"RpLRK1kbDjQYV1FIRZrtWJ7q+3tkOD7DBKlMW/zlXPu5vrJxUe1G6G/XAH1x164Zckuo4k1eS+lQww5T6AOsmQ==", "id"=>"7"}
+  [1m[35mComment Load (0.3ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "comments" WHERE "comments"."id" = $1  [["id", 7]]
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/comments
+Completed 302 Found in 5ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/comments" for ::1 at 2015-08-04 22:09:12 -0400
+Processing by CommentsController#index as HTML
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments"
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  Rendered comments/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/comments/6" for ::1 at 2015-08-04 22:09:18 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mComment Load (0.3ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  Rendered comments/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/comments/6" for ::1 at 2015-08-04 22:10:05 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mComment Load (0.3ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mVideo Load (0.3ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  Rendered comments/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 36ms (Views: 34.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/style.self-6898c1f5462fc3fca00ba3c79965b57e1826e2d574bb2a875358c88c744cc0b7.css?body=1" for ::1 at 2015-08-04 22:10:05 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-08-04 22:10:05 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-04 22:10:05 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-04 22:10:05 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-04 22:10:05 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-08-04 22:10:05 -0400
+
+
+Started GET "/comments" for ::1 at 2015-08-04 22:10:12 -0400
+Processing by CommentsController#index as HTML
+  [1m[35mComment Load (0.4ms)[0m  SELECT "comments".* FROM "comments"
+  [1m[36mVideo Load (0.2ms)[0m  [1mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  Rendered comments/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/comments/7" for ::1 at 2015-08-04 22:10:14 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mComment Load (0.3ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1  [["id", 7]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.3ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Comment with 'id'=7):
+  app/controllers/comments_controller.rb:21:in `show'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (53.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (125.8ms)
+
+
+Started GET "/comments/7" for ::1 at 2015-08-04 22:10:14 -0400
+Processing by CommentsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT 1[0m  [["id", 7]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.3ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Comment with 'id'=7):
+  app/controllers/comments_controller.rb:21:in `show'
+
+
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (70.6ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (56.8ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/vijayakumarmoses/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (126.0ms)
+
+
+Started GET "/videos" for ::1 at 2015-08-04 22:10:19 -0400
+Processing by VideosController#index as HTML
+  [1m[35mVideo Load (0.5ms)[0m  SELECT "videos".* FROM "videos"  ORDER BY "videos"."likes" ASC
+  Rendered videos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.5ms)

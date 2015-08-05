@@ -55,6 +55,7 @@ Rails.application.routes.draw do
   #   end
 
   get "videos" => "videos#index"
+
   get "videos/new" => "videos#new"
 
   post "videos" => "videos#create"
@@ -64,5 +65,14 @@ Rails.application.routes.draw do
   get "videos/:id/edit" => "videos#edit"
   put "videos/:id" => "videos#update"
   delete "videos/:id" => "videos#destroy"
+
+
+  get "comments" => "comments#index"
+  get "comments/new" => "comments#new"
+  post "comments" => "comments#create"
+  get "comments/:id" => "comments#show"
+  get "comments/:id/edit" => "comments#edit"
+  put "comments/:id" => "comments#update"
+  delete "comments/:id" => "comments#destroy"
 
 end

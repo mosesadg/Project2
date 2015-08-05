@@ -4,10 +4,18 @@
 <h4><%= @video.link_url %></h4>
 <h4><%= @video.likes %></h4>
 
-<iframe width="650" height="415" class='artist-photo' src="<%= @video.link_url %>">
 
-
-<h3>Comments</h3>
+<h2>Comments <a href="/comments/new">(+)</a></h2>
 <ul>
+  <% @video.comments.each do |comment| %>
+    <!-- build the list element for each song -->
+    <li>
+      <a href="/comments/<%= comment.id %>">
+        <%= comment.text_body %> Author:<%= comment.author %>
+      </a>
+    </li>
 
+  <% end %>
 </ul>
+
+<iframe width="650" height="415" class='artist-photo' src="<%= @video.link_url %>">
