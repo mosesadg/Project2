@@ -1,4 +1,5 @@
 class VideosController < ApplicationController
+
   def index
     # @videos = Video.all.order(:likes).reverse
     @videos = Video.all
@@ -21,8 +22,10 @@ class VideosController < ApplicationController
     def create
 
     @video = Video.create!(video_params)
+    @video.update(date_created: Time.now.strftime("%B %d, %Y") )
+    
+    redirect_to (video_path(@video))
 
-      redirect_to "/videos/#{@video.id}"
   end
 
   def edit
@@ -31,21 +34,30 @@ class VideosController < ApplicationController
 
   def update
     @video = Video.find(params[:id])
+
     @video.update(video_params)
 
-    redirect_to "/videos/#{@video.id}"
+
+      redirect_to video_path(@video)
   end
 
   def destroy
     @video = Video.find(params[:id])
     @video.destroy
-    redirect_to "/videos"
+    redirect_to videos_path
+
   end
 
+def upvote
+  @video = Video.find(params[:id])
+  @video.upvote_by current_user
+  redirect_to @videos_path
+
+end
 
 private
 def video_params
-  params.require(:video).permit(:subject, :author, :date_created, :likes, :link_url)
+  params.require(:video).permit(:subject, :author, :likes, :link_url)
 end
 
 

@@ -5,6 +5,15 @@
 <h4><%= @video.likes %></h4>
 
 
+
+
+
+<%= link_to "like post", like_video_path(@video),  method: :put %>
+
+<h4><%= @video.votes_for.size %></h4>
+
+
+
 <!-- <h2>Comments <a href="/comments/new">(+)</a></h2> -->
 <h3>Comments <%= link_to "(+)", new_video_comment_path(@video) %></h3>
 <ul>
@@ -18,7 +27,6 @@
         <%= comment.text_body %> Author:<%= comment.author %>
       </a>
     </li> -->
-
   <% end %>
 </ul>
 
