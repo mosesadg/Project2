@@ -1,6 +1,8 @@
 <h2>New Comment</h2>
 
-<form action="/comments" method="post">
+<%= render 'form' %>
+
+<!-- <form action="/comments" method="post">
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
   <label for="comment[text_body]">Body:</label>
   <input name="comment[text_body]">
@@ -15,4 +17,4 @@
   <input name="comment[video_id]">
 
   <input type="submit" value="Create">
-</form>
+</form> -->

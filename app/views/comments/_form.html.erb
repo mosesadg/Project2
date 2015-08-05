@@ -1,0 +1,14 @@
+<%= form_for([@video, @comment]) do |f| %>
+
+  <%= f.label :text_body %>
+  <%= f.text_field :text_body %>
+
+  <%= f.label :author %>
+  <%= f.text_field :author %>
+
+  <%= f.label :date_created %>
+  <%= f.text_field :date_created %>
+
+  <%= f.submit %>
+
+<% end %>

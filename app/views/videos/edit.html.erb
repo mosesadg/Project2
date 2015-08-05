@@ -1,5 +1,11 @@
 <h2>Edit Video Post</h2>
 
+<%= render 'form' %>
+
+<%= link_to 'Delete!', video_path(@video), method: :delete, class: 'delete' %>
+
+
+<!--
 <form action="/videos/<%= @video.id %>" method="post">
   <input type="hidden" name="_method" value="put">
 
@@ -25,4 +31,4 @@
 <form action="/videos/<%= @video.id %>" method="post">
   <input type="hidden" name="_method" value="delete">
   <input class="button-delete" type="submit" value="Delete!">
-</form>
+</form> -->

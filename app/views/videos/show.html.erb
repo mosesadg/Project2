@@ -5,15 +5,19 @@
 <h4><%= @video.likes %></h4>
 
 
-<h2>Comments <a href="/comments/new">(+)</a></h2>
+<!-- <h2>Comments <a href="/comments/new">(+)</a></h2> -->
+<h3>Comments <%= link_to "(+)", new_video_comment_path(@video) %></h3>
 <ul>
   <% @video.comments.each do |comment| %>
     <!-- build the list element for each song -->
     <li>
+      <%= link_to "#{comment.text_body} (#{comment.author})", video_comment_path(@video, comment) %>
+    </li>
+    <!-- <li>
       <a href="/comments/<%= comment.id %>">
         <%= comment.text_body %> Author:<%= comment.author %>
       </a>
-    </li>
+    </li> -->
 
   <% end %>
 </ul>

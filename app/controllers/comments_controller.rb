@@ -6,20 +6,21 @@ class CommentsController < ApplicationController
 
   # new
   def new
-
+    @video = Video.find(params[:video_id])
     @comment = Comment.new
   end
 
   # create
   def create
 
+    @video = Video.find(params[:video_id])
+    @comment = Comment.create!(comment_params.merge(video: @video))
+    redirect_to video_comment_path(@video, @comment)
 
-
-
-
-    @comment = Comment.create(comment_params)
-
-    redirect_to "/comments/#{@comment.id}"
+    #
+    # @comment = Comment.create(comment_params)
+    #
+    # redirect_to "/comments/#{@comment.id}"
   end
 
   #show
@@ -34,10 +35,18 @@ class CommentsController < ApplicationController
 
   # update
   def update
-    @comment = Comment.find(params[:id])
-    @comment.update(comment_params)
 
-    redirect_to "/comments/#{@comment.id}"
+    @comment = Comment.find(params[:id])
+  @video = Video.find(params[:video_id])
+  @comment.update(song_params.merge(video: @video))
+  redirect_to video_comment_path(@comment.video, @comment)
+
+
+
+    # @comment = Comment.find(params[:id])
+    # @comment.update(comment_params)
+    #
+    # redirect_to "/comments/#{@comment.id}"
   end
 
   # destroy
@@ -45,7 +54,9 @@ class CommentsController < ApplicationController
     @comment = Comment.find(params[:id])
     @comment.destroy
 
-    redirect_to "/comments"
+    # redirect_to "/comments"
+
+    redirect_to songs_path
   end
 
   private
