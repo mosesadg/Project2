@@ -1,8 +1,12 @@
 class VideosController < ApplicationController
   def index
-
-    @videos = Video.all.order(:likes).reverse
-
+    # @videos = Video.all.order(:likes).reverse
+    @videos = Video.all
+      if params[:search]
+        @videos = Video.search(params[:search]).order("created_at DESC")
+      else
+        @videos = Video.all.order('created_at DESC')
+      end
     end
 
     def show
