@@ -4,7 +4,7 @@
   <% @comments.each do |comment| %>
     <li>
       <a href="/comments/<%= comment.id %>">
-        <%= comment.text_body %> - <%= comment.video.subject %>
+        <%= comment.text_body %> - <%= comment.author %>
       </a>
     </li>
   <% end %>

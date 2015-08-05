@@ -6,11 +6,17 @@ class CommentsController < ApplicationController
 
   # new
   def new
+
     @comment = Comment.new
   end
 
   # create
   def create
+
+
+
+
+
     @comment = Comment.create(comment_params)
 
     redirect_to "/comments/#{@comment.id}"
