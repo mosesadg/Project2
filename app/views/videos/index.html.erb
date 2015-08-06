@@ -11,10 +11,13 @@
         <a href ="/videos/<%= video.id %>">
       <iframe width="360" height="215" src="<%=video.link_url%>" frameborder="0" allowfullscreen></iframe><br>
           Subject: <%= video.subject%><br>
-
+<span class="glyphicons glyphicons-thumbs-up"></span>
             Author:<%= video.author%><br>
               Date:<%= video.date_created%><br>
-                Likes:<%= video.likes%><br>
+                Likes:<span class="glyphicon glyphicon-euro"></span><%= video.votes_for.size%><br>
+                <!-- Likes:<%= video.likes%><br> -->
+                <!-- <h4><%= video.votes_for.size %></h4> -->
+
       </a>
 <br>
 
