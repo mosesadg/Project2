@@ -1,4 +1,5 @@
 class CommentsController < ApplicationController
+  before_action :authenticate_user!, except: [:index, :show]
   # index
   def index
     @comments = Comment.all
@@ -30,6 +31,7 @@ class CommentsController < ApplicationController
 
   # edit
   def edit
+
     @comment = Comment.find(params[:id])
   end
 

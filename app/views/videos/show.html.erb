@@ -1,33 +1,24 @@
-<h2><%= @video.subject %> <a href="/videos/<%= @video.id %>/edit">(edit)</a></h2>
-<h4><%= @video.author %></h4>
-<h4><%= @video.date_created %></h4>
-<h4><%= @video.link_url %></h4>
-<h4><%= @video.likes %></h4>
+<br><br>
+<li class="display">
 
+ Subject: <%= @video.subject %> <br>
+ Author: <%= @video.author %><br>
+ Date: <%= @video.date_created %><br>
+ Likes: <%= @video.votes_for.size %><br>
+<%= link_to image_tag("Like.png"), like_video_path(@video),  method: :put %><br>
 
+  <a class="links" href="/videos/<%= @video.id %>/edit">[Edit Video Post]<br><br></a>
 
+<iframe width="550" height="315" class='artist-photo' src="<%= @video.link_url %>"></iframe>
+<!-- <h4><%= @video.link_url %></h4> -->
+<!-- <h4>Likes:<%= @video.likes %></h4> -->
 
+<h3>Add Comments <%= link_to "(+)", new_video_comment_path(@video) %></h3>
 
-<%= link_to "like post", like_video_path(@video),  method: :put %>
-
-<h4><%= @video.votes_for.size %></h4>
-
-
-
-<!-- <h2>Comments <a href="/comments/new">(+)</a></h2> -->
-<h3>Comments <%= link_to "(+)", new_video_comment_path(@video) %></h3>
-<ul>
   <% @video.comments.each do |comment| %>
-    <!-- build the list element for each song -->
-    <li>
-      <%= link_to "#{comment.text_body} (#{comment.author})", video_comment_path(@video, comment) %>
-    </li>
-    <!-- <li>
-      <a href="/comments/<%= comment.id %>">
-        <%= comment.text_body %> Author:<%= comment.author %>
-      </a>
-    </li> -->
-  <% end %>
-</ul>
 
-<iframe width="650" height="415" class='artist-photo' src="<%= @video.link_url %>">
+      <%= link_to "#{comment.text_body} (#{comment.author})", video_comment_path(@video, comment) %>
+<br>
+  <% end %>
+
+</li>

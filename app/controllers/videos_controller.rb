@@ -68,7 +68,8 @@ class VideosController < ApplicationController
 def upvote
   @video = Video.find(params[:id])
   @video.upvote_by current_user
-  redirect_to videos_path
+
+  redirect_to video_path(@video)
 
 end
 
