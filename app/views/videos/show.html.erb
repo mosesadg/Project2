@@ -7,6 +7,8 @@
  Likes: <%= @video.votes_for.size %><br>
 <%= link_to image_tag("Like.png"), like_video_path(@video),  method: :put %><br>
 
+<%= "#{@video.impressionist_count} views so far!" %>
+
   <a class="links" href="/videos/<%= @video.id %>/edit">[Edit Video Post]<br><br></a>
 
 <iframe width="550" height="315" class='artist-photo' src="<%= @video.link_url %>"></iframe>

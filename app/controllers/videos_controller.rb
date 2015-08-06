@@ -1,6 +1,8 @@
 class VideosController < ApplicationController
   # before_action :set_video, only: [:show, :edit, :update, :destroy]
-    before_action :authenticate_user!, except: [:index, :show]
+    before_action :authenticate_user!, except: [:index]
+    impressionist actions: [:show]
+    # , unique: [:session_hash]
   def index
     # @videos = Video.all.order(:likes).reverse
     # @videos = Video.all
@@ -8,12 +10,12 @@ class VideosController < ApplicationController
       @videos = current_user.videos
 
       if params[:search]
-          @videos = Video.search(params[:search]).order("created_at DESC")
+          @videos = Video.search(params[:search]).order("created_at DESC").paginate(page: params[:page], per_page: 2)
         else
-          @videos = Video.all.order('created_at DESC')
+          @videos = Video.all.order('created_at DESC').paginate(page: params[:page], per_page: 2)
         end
     else
-      @videos =Video.all
+      @videos =Video.all.paginate(page: params[:page], per_page: 2)
     end
 
   end

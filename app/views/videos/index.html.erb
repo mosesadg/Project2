@@ -17,11 +17,15 @@
           Subject: <%= video.subject%><br>
             Author:<%= video.author%><br>
               Date:<%= video.date_created%><br>
+
+                Views:<%= video.impressionist_count%><br>
                 Likes:<%= video.votes_for.size%><br>
                 <!-- Likes:<%= video.likes%><br> -->
                 <!-- <h4><%= video.votes_for.size %></h4> -->
         </a>
+
       <br><br><hr>
     </li>
+    </ul>
     <% end %>
-</ul
+      <%= will_paginate @videos, previous_label: "Older", next_label: "Newer" %>

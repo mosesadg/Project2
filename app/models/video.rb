@@ -1,5 +1,6 @@
 class Video < ActiveRecord::Base
   acts_as_votable
+  is_impressionable
 has_many :comments, dependent: :destroy
 belongs_to :user
 
