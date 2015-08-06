@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
 
+  devise_for :users
   # get "videos" => "videos#index"
   #
   # get "videos/new" => "videos#new"
