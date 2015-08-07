@@ -1,10 +1,7 @@
 class VideosController < ApplicationController
-  # before_action :set_video, only: [:show, :edit, :update, :destroy]
     before_action :authenticate_user!, except: [:index]
     impressionist actions: [:show], unique: [:session_hash]
   def index
-    # @videos = Video.all.order(:likes).reverse
-    # @videos = Video.all
     if current_user
       @videos = current_user.videos
 
@@ -18,14 +15,7 @@ class VideosController < ApplicationController
     end
 
   end
-    # @videos = current_user.videos
-    #
-    #   if params[:search]
-    #     @videos = Video.search(params[:search]).order("created_at DESC")
-    #   else
-    #     @videos = Video.all.order('created_at DESC')
-    #   end
-    # end
+
 
     def show
     @video = Video.find(params[:id])
@@ -39,7 +29,6 @@ class VideosController < ApplicationController
 
     def create
 
-    # @video = Video.create!(video_params)
     @video = current_user.videos.build(video_params)
     @video.update(date_created: Time.now.strftime("%B %d, %Y") )
 
