@@ -4,6 +4,7 @@
 <%= text_field_tag :search, params[:search], placeholder: "Search Videos" %>
 <%= submit_tag "Search" %>
 <% end %>
+<%= will_paginate @videos, previous_label: "Older", next_label: "Newer" %>
 </div>
 
 <!-- <h2>brodKast Videos <a href ="/videos/new">(+)</a></h2> -->
@@ -24,8 +25,8 @@
                 <!-- <h4><%= video.votes_for.size %></h4> -->
         </a>
 
-      <br><br><hr>
+      <hr>
     </li>
+
     </ul>
     <% end %>
-      <%= will_paginate @videos, previous_label: "Older", next_label: "Newer" %>

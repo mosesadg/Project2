@@ -19,4 +19,9 @@ video4 = Video.create(subject:"Learn C#", link_url:"https://www.youtube.com/embe
 
 video5 = Video.create(subject:"Learn JQuery", link_url:"https://www.youtube.com/embed/hMxGhHNOkCU", author:"AnandM", date_created:"August 05, 2015", likes:67)
 
+video6 = Video.create(subject:"Learn Javascript", link_url:"https://www.youtube.com/embed/vZBCTc9zHtI", author:"AnandM", date_created:"August 03, 2015", likes:270)
+
+video7 = Video.create(subject:"Learn C#", link_url:"https://www.youtube.com/embed/pSiIHe2uZ2w", author:"AnandM", date_created:"August 04, 2015", likes:45)
+
+video8 = Video.create(subject:"Learn JQuery", link_url:"https://www.youtube.com/embed/hMxGhHNOkCU", author:"AnandM", date_created:"August 05, 2015", likes:67)
 comment1 = Comment.create(text_body:"Video 1 looks good, yay!", author:"Mr.Utube", date_created:"2015", video:video1 )
