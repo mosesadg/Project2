@@ -13,20 +13,24 @@
 <body>
   <nav class="fixed-nav-bar">
   standUP & LOL!
+  <!-- <img src ="http://vignette4.wikia.nocookie.net/emojimeanings/images/0/06/160x160x23-face-with-tears-of-joy_png_pagespeed_ic_Z_mT_BlOxX.jpg/revision/latest?cb=20141103194118"></img> -->
 
 
 <div class="headsup">
 
   <% if current_user %>
   <li>Welcome <%= current_user.email %>! </li>
+  <li><a href="/videos">Videos</a></li>
+  <li><a href="/comments">Comments</a></li>
+  <li><a href ="/videos/new">Post Video(+)</a></li>
     <li><%= link_to 'Signout', destroy_user_session_path, :method => :delete %></li>
   <% else %>
     <li><%= link_to 'Signup', new_user_registration_path %></li>
     <li><%= link_to 'Login', new_user_session_path %></li>
   <% end %>
-  <li><a href="/videos">Videos</a></li>
+  <!-- <li><a href="/videos">Videos</a></li>
   <li><a href="/comments">Comments</a></li>
-  <li><a href ="/videos/new">Post Video(+)</a></li>
+  <li><a href ="/videos/new">Post Video(+)</a></li> -->
 </div>
 </nav>
 <br>

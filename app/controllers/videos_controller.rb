@@ -37,8 +37,11 @@ class VideosController < ApplicationController
   end
 
   def edit
-    @video = Video.find(params[:id])
-  end
+
+ @video = current_user.videos.find(params[:id])
+
+
+end
 
   def update
     @video = Video.find(params[:id])
@@ -66,7 +69,7 @@ end
 
 private
 def video_params
-  params.require(:video).permit(:subject, :author, :likes, :link_url)
+  params.require(:video).permit(:subject, :author, :likes, :link_url, :user_id)
 end
 
 

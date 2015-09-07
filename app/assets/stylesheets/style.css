@@ -2,8 +2,8 @@
 body{
 margin-left: 50px;
 margin-right: 50px;
-background-image: url("http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2013/7/19/1374225896482/Brick-wall-bricks-and-mor-008.jpg");
-color:white;
+/*background-image: url("http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2013/7/19/1374225896482/Brick-wall-bricks-and-mor-008.jpg");*/
+/*color:white;*/
 }
 
 .display{
@@ -14,7 +14,7 @@ color:white;
     list-style: square;
     float: left;
     list-style-type: none;
-    color:white;
+    color:red;
     /*background-color: black;*/
     /*color:#A52A2A;*/
 }
@@ -37,9 +37,9 @@ a:link, a:visited {
     /*text-align: center;*/
     padding: 4px;
     text-decoration: none;
-    color: white;
+    color: IndianRed;
     /*background-color: black;*/
-    font-size: 1.5em;
+    font-size: 1.2em;
       font-family:monospace;
     /*text-transform: uppercase;*/
 }
@@ -57,7 +57,7 @@ a:link, a:visited {
   width: 100%;
   height: 60px;
   /*background-color: #00a087;*/
-  background-color: black;
+  background-color: MediumTurquoise;
   color:white;
   font-size: 2em;
   font-family: monospace;
